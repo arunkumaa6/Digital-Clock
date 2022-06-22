@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+body{
+    align-items: center;
+    min-height: 100vh;
+    background-color: #030b33;
+}
+
+h2{
+    padding-top: 10%;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+
+.time{
+    display: flex;
+    padding: 40px;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.daytime{
+    display: flex;
+    justify-content:space-around;
+    background:rgb(2, 117, 184);
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+
+.day{
+    font-weight:400;
+    font-size: 50px;
+    text-align: center;
+}
+
+span{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#zone{
+    padding-top: 40px;
+    font-size: 35px;
+}
